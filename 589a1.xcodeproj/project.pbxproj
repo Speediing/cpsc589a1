@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96D75002215AAD6C0083DEE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96D75001215AAD6C0083DEE4 /* main.cpp */; };
+		96D7500A215AB0810083DEE4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D75009215AB0810083DEE4 /* OpenGL.framework */; };
+		96D7500C215AB10B0083DEE4 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D7500B215AB10B0083DEE4 /* libGLEW.2.1.0.dylib */; };
+		96D7500E215AB1560083DEE4 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D7500D215AB1560083DEE4 /* libglfw.3.2.dylib */; };
+		96D7501F215AB7280083DEE4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96D7501E215AB7280083DEE4 /* main.cpp */; };
+		96DFA317215ABB6800B03535 /* RenderEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA30D215ABB6700B03535 /* RenderEngine.cpp */; };
+		96DFA318215ABB6800B03535 /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA30F215ABB6800B03535 /* Program.cpp */; };
+		96DFA319215ABB6800B03535 /* InputHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA310215ABB6800B03535 /* InputHandler.cpp */; };
+		96DFA31A215ABB6800B03535 /* ShaderTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA314215ABB6800B03535 /* ShaderTools.cpp */; };
+		96DFA31B215ABB6800B03535 /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA315215ABB6800B03535 /* Geometry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,22 @@
 
 /* Begin PBXFileReference section */
 		96D74FFE215AAD6C0083DEE4 /* 589a1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 589a1; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D75001215AAD6C0083DEE4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		96D75009215AB0810083DEE4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		96D7500B215AB10B0083DEE4 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../../usr/local/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		96D7500D215AB1560083DEE4 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		96D7501E215AB7280083DEE4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../main.cpp; sourceTree = "<group>"; };
+		96DFA30D215ABB6700B03535 /* RenderEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderEngine.cpp; path = "../../../../../Downloads/boilerplate-updated/src/RenderEngine.cpp"; sourceTree = "<group>"; };
+		96DFA30E215ABB6800B03535 /* RenderEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderEngine.h; path = "../../../../../Downloads/boilerplate-updated/src/RenderEngine.h"; sourceTree = "<group>"; };
+		96DFA30F215ABB6800B03535 /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Program.cpp; path = "../../../../../Downloads/boilerplate-updated/src/Program.cpp"; sourceTree = "<group>"; };
+		96DFA310215ABB6800B03535 /* InputHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputHandler.cpp; path = "../../../../../Downloads/boilerplate-updated/src/InputHandler.cpp"; sourceTree = "<group>"; };
+		96DFA311215ABB6800B03535 /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Program.h; path = "../../../../../Downloads/boilerplate-updated/src/Program.h"; sourceTree = "<group>"; };
+		96DFA312215ABB6800B03535 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputHandler.h; path = "../../../../../Downloads/boilerplate-updated/src/InputHandler.h"; sourceTree = "<group>"; };
+		96DFA313215ABB6800B03535 /* ShaderTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShaderTools.h; path = "../../../../../Downloads/boilerplate-updated/src/ShaderTools.h"; sourceTree = "<group>"; };
+		96DFA314215ABB6800B03535 /* ShaderTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShaderTools.cpp; path = "../../../../../Downloads/boilerplate-updated/src/ShaderTools.cpp"; sourceTree = "<group>"; };
+		96DFA315215ABB6800B03535 /* Geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Geometry.cpp; path = "../../../../../Downloads/boilerplate-updated/src/Geometry.cpp"; sourceTree = "<group>"; };
+		96DFA316215ABB6800B03535 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = "../../../../../Downloads/boilerplate-updated/src/Geometry.h"; sourceTree = "<group>"; };
+		96DFA326215AC16B00B03535 /* frags.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = frags.frag; path = "../../../../../Downloads/boilerplate-updated-2/shaders/frags.frag"; sourceTree = "<group>"; };
+		96DFA327215AC16B00B03535 /* verts.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = verts.vert; path = "../../../../../Downloads/boilerplate-updated-2/shaders/verts.vert"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D7500E215AB1560083DEE4 /* libglfw.3.2.dylib in Frameworks */,
+				96D7500C215AB10B0083DEE4 /* libGLEW.2.1.0.dylib in Frameworks */,
+				96D7500A215AB0810083DEE4 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +69,7 @@
 			children = (
 				96D75000215AAD6C0083DEE4 /* 589a1 */,
 				96D74FFF215AAD6C0083DEE4 /* Products */,
+				96D75008215AB0810083DEE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +84,31 @@
 		96D75000215AAD6C0083DEE4 /* 589a1 */ = {
 			isa = PBXGroup;
 			children = (
-				96D75001215AAD6C0083DEE4 /* main.cpp */,
+				96DFA326215AC16B00B03535 /* frags.frag */,
+				96DFA327215AC16B00B03535 /* verts.vert */,
+				96DFA315215ABB6800B03535 /* Geometry.cpp */,
+				96DFA316215ABB6800B03535 /* Geometry.h */,
+				96DFA310215ABB6800B03535 /* InputHandler.cpp */,
+				96DFA312215ABB6800B03535 /* InputHandler.h */,
+				96DFA30F215ABB6800B03535 /* Program.cpp */,
+				96DFA311215ABB6800B03535 /* Program.h */,
+				96DFA30D215ABB6700B03535 /* RenderEngine.cpp */,
+				96DFA30E215ABB6800B03535 /* RenderEngine.h */,
+				96DFA314215ABB6800B03535 /* ShaderTools.cpp */,
+				96DFA313215ABB6800B03535 /* ShaderTools.h */,
+				96D7501E215AB7280083DEE4 /* main.cpp */,
 			);
 			path = 589a1;
+			sourceTree = "<group>";
+		};
+		96D75008215AB0810083DEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D7500D215AB1560083DEE4 /* libglfw.3.2.dylib */,
+				96D7500B215AB10B0083DEE4 /* libGLEW.2.1.0.dylib */,
+				96D75009215AB0810083DEE4 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D75002215AAD6C0083DEE4 /* main.cpp in Sources */,
+				96DFA31A215ABB6800B03535 /* ShaderTools.cpp in Sources */,
+				96DFA31B215ABB6800B03535 /* Geometry.cpp in Sources */,
+				96DFA318215ABB6800B03535 /* Program.cpp in Sources */,
+				96D7501F215AB7280083DEE4 /* main.cpp in Sources */,
+				96DFA317215ABB6800B03535 /* RenderEngine.cpp in Sources */,
+				96DFA319215ABB6800B03535 /* InputHandler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +293,19 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4W86P24743;
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+					"$SOURCE_ROOT/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lGLEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +315,19 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4W86P24743;
+				GCC_NO_COMMON_BLOCKS = NO;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					/usr/local/include,
+					"$SOURCE_ROOT/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/opt/local/lib,
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = "-lGLEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
